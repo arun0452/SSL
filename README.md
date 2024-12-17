@@ -26,16 +26,21 @@ File Organization: Ensure that the project files are organized as follows:
 ├── lr_schedule.py
 ├── utils.py
 └── saved_models/
+
 **How to Run**
 
 To run the project, execute the main.py script. It will load the CIFAR-10 dataset, apply image rotation, train a ResNet model with self-supervised learning (SSL), and save the best model and training history.
 
 **Run the script:**
+
 python main.py
+
 **Model Checkpoints:**
+
 During training, the model checkpoints will be saved in the saved_models directory. The best model based on validation accuracy will be saved with the name Restnetv1_SSL_Rotation.keras.
 
 **Training History:**
+
 The training and validation accuracy and loss history will also be saved in a .pkl file (Restnetv1_SSL_Rotation.keras_history.pkl). You can use this file to visualize the model's performance using the provided seaborn and matplotlib visualizations.
 
 **Results Visualization**
@@ -43,7 +48,9 @@ The training and validation accuracy and loss history will also be saved in a .p
 After training, the script will automatically generate accuracy and loss plots for both the training and validation datasets:
 
 Accuracy Plot: Shows how the model's accuracy evolves throughout the training process.
+
 Loss Plot: Displays the loss trends during training and validation.
+
 Learning Rate Schedule
 
 The learning rate schedule used in this project is based on the epoch number. The learning rate is adjusted as follows:
