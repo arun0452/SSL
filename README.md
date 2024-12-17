@@ -7,9 +7,12 @@ This project demonstrates a self-supervised learning (SSL) approach for the pret
 **The project is divided into several Python modules:**
 
 **utils.py:** Contains utility functions for data preprocessing and image rotation.
-lr_schedule.py: Defines a learning rate schedule used during training.
-resnet.py: Contains the ResNet model and necessary helper functions to build it.
-main.py: The main script that handles data loading, model training, and evaluation.
+
+**lr_schedule.py**: Defines a learning rate schedule used during training.
+
+**resnet.py**: Contains the ResNet model and necessary helper functions to build it.
+
+**main.py**: The main script that handles data loading, model training, and evaluation.
 Setup
 
 **Install Dependencies:** Before running the code, make sure to install the necessary Python libraries. You can install them using pip:
